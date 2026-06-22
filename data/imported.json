@@ -1,5 +1,5 @@
 {
-  "id": "45f0dca3-7f2c-48ae-8ac5-84b41f0f6558",
+  "id": "8bcb3269-fe25-4f01-a11a-da2abc19b88c",
   "name": "sample_chat",
   "type": "private",
   "participants": [
@@ -8,7 +8,7 @@
   ],
   "messages": [
     {
-      "id": "549195ca-4d34-4b92-8a6c-a471cc0090f3",
+      "id": "b0ae4e19-513f-4eb0-b05b-4182557e2bc4",
       "timestamp": "2023-01-01T10:00:00",
       "sender": "Me",
       "sender_type": "self",
@@ -17,7 +17,7 @@
       "raw_content": "你好"
     },
     {
-      "id": "4d5d7cc1-dd52-4bab-baaf-ba6256033948",
+      "id": "cabcd1a9-3ed7-4f58-b706-dbd852ed93df",
       "timestamp": "2023-01-01T10:01:00",
       "sender": "Alice",
       "sender_type": "other",
@@ -26,7 +26,7 @@
       "raw_content": "你好呀"
     },
     {
-      "id": "88e0dddc-f524-4bc8-a2ed-dcf69cf07598",
+      "id": "12bd6dc1-7cdd-4a07-a66f-3a74b2cb2bb7",
       "timestamp": "2023-01-01T10:02:00",
       "sender": "Me",
       "sender_type": "self",
@@ -35,7 +35,7 @@
       "raw_content": "你在吗"
     },
     {
-      "id": "1906a774-be1e-4a33-bd00-d881c0fb356a",
+      "id": "11184f89-cd7a-404f-98b9-38498e55130f",
       "timestamp": "2023-01-01T10:03:00",
       "sender": "Me",
       "sender_type": "self",
@@ -44,7 +44,7 @@
       "raw_content": "明天有空吗"
     },
     {
-      "id": "cdf9413c-0d3d-4da7-ad25-ac9db6dba7b2",
+      "id": "ef60ae0b-37e0-4a95-b525-2ea5ac80729d",
       "timestamp": "2023-01-01T10:04:00",
       "sender": "Alice",
       "sender_type": "other",
@@ -53,7 +53,7 @@
       "raw_content": "有啊"
     },
     {
-      "id": "fb8669d7-9982-432b-8a94-c633466a9188",
+      "id": "dedb8eeb-2dd7-4996-b439-5bed01916a26",
       "timestamp": "2023-01-01T10:05:00",
       "sender": "Me",
       "sender_type": "self",
@@ -62,7 +62,7 @@
       "raw_content": "那我们一起吃个饭吧"
     },
     {
-      "id": "91669c82-b0a0-4792-b1bd-65e4dfd926a7",
+      "id": "39832049-70eb-4c5d-8897-8aa33a8042d1",
       "timestamp": "2023-01-01T10:06:00",
       "sender": "Alice",
       "sender_type": "other",
@@ -71,7 +71,7 @@
       "raw_content": "好呀"
     },
     {
-      "id": "916eea96-0df0-499e-b50e-47072c193322",
+      "id": "aca6d435-4c67-4aeb-816f-24dc5766a119",
       "timestamp": "2023-01-01T10:07:00",
       "sender": "Me",
       "sender_type": "self",
@@ -80,7 +80,7 @@
       "raw_content": "哈哈哈"
     },
     {
-      "id": "1f1ab261-fe39-464b-beaf-67fcfcda05c9",
+      "id": "ab55c0ac-5304-4bf6-8e36-f533a589c39e",
       "timestamp": "2023-01-01T10:08:00",
       "sender": "Alice",
       "sender_type": "other",
@@ -89,7 +89,7 @@
       "raw_content": "笑死"
     },
     {
-      "id": "c8e81989-16a1-49fb-a72f-5c7e1aa60780",
+      "id": "8ddaf7e7-3c36-4f93-b9ee-cf42c8d68e78",
       "timestamp": "2023-01-01T10:09:00",
       "sender": "Me",
       "sender_type": "self",
@@ -98,7 +98,7 @@
       "raw_content": "嗯"
     },
     {
-      "id": "a403a3c4-8a1d-49eb-b018-63091d5f224f",
+      "id": "348ebae4-004e-42e2-a9a3-858a609043a5",
       "timestamp": "2023-01-01T10:10:00",
       "sender": "Alice",
       "sender_type": "other",
@@ -107,7 +107,7 @@
       "raw_content": "那明天晚上七点见"
     },
     {
-      "id": "8f8a78ef-8792-4904-a39e-47da1c290849",
+      "id": "e2470192-6c6c-4bf5-a42b-971cb649316e",
       "timestamp": "2023-01-01T10:11:00",
       "sender": "Me",
       "sender_type": "self",
@@ -116,7 +116,7 @@
       "raw_content": "我答应你，一定准时到"
     },
     {
-      "id": "934f3c24-2ecd-4feb-a3b2-ecce779599fb",
+      "id": "b33797ba-0067-4b72-bddc-96f63437b88f",
       "timestamp": "2023-02-14T21:00:00",
       "sender": "Alice",
       "sender_type": "other",
@@ -125,7 +125,7 @@
       "raw_content": "今天是我们第一次约会的日子"
     },
     {
-      "id": "dddc27fa-93aa-4154-9382-a4e6c7bdff63",
+      "id": "1edfe9ce-0cbc-4524-b8bc-8a6dc0f83be5",
       "timestamp": "2023-02-14T21:05:00",
       "sender": "Me",
       "sender_type": "self",
@@ -134,7 +134,7 @@
       "raw_content": "我会永远记得的"
     },
     {
-      "id": "6402bd0e-b4a9-46d2-9497-cfe6c76062cc",
+      "id": "d0cd1b0b-7790-4727-baf8-c521a1d9ae7c",
       "timestamp": "2023-02-14T21:10:00",
       "sender": "Alice",
       "sender_type": "other",
@@ -143,7 +143,7 @@
       "raw_content": "我也是"
     },
     {
-      "id": "e5a38e20-112f-4979-8758-7c4dfc34f6a7",
+      "id": "4bef2194-ca33-4bed-9e8d-2da468ffc919",
       "timestamp": "2023-03-01T23:30:00",
       "sender": "Me",
       "sender_type": "self",
@@ -152,7 +152,7 @@
       "raw_content": "还没睡吗"
     },
     {
-      "id": "1aefa829-ca2c-43e6-b72e-13efd66ea9df",
+      "id": "c58e02e0-5c10-4c8f-a54c-f9822fbd14a7",
       "timestamp": "2023-03-01T23:35:00",
       "sender": "Alice",
       "sender_type": "other",
@@ -161,7 +161,7 @@
       "raw_content": "睡不着"
     },
     {
-      "id": "0572c1f8-e75f-4775-bf06-d970819c44e7",
+      "id": "a46150bc-9d97-4d91-8965-b60a8005ecec",
       "timestamp": "2023-03-01T23:40:00",
       "sender": "Me",
       "sender_type": "self",
@@ -170,7 +170,7 @@
       "raw_content": "那我陪你聊会儿"
     },
     {
-      "id": "6f520076-f90a-4d03-a671-e0253aae1eba",
+      "id": "e1ccc198-4b27-4a2b-8cbb-caf6eab1356d",
       "timestamp": "2023-03-02T00:15:00",
       "sender": "Alice",
       "sender_type": "other",
@@ -179,7 +179,7 @@
       "raw_content": "谢谢你"
     },
     {
-      "id": "b555a725-1ae7-4a8c-8418-6e8df7e9b902",
+      "id": "f96cf60d-18a6-435f-add7-d6682400798b",
       "timestamp": "2023-03-02T00:20:00",
       "sender": "Me",
       "sender_type": "self",
