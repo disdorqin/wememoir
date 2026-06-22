@@ -27,7 +27,7 @@ def cmd_clean(args: argparse.Namespace) -> None:
     conversation = _load_conversation(args.file)
     cleaner = DialogueCleaner()
     cleaned = cleaner.clean(conversation.messages)
-    export_messages(cleaned, args.out, title=f"{conversation.name} 清洗后对话")
+    export_messages(cleaned, args.out, title=f"{conversation.name} cleaned")
     print(f"Cleaned {len(conversation.messages)} -> {len(cleaned)} messages -> {args.out}")
 
 
