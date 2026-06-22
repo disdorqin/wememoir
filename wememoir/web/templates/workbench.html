@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WeMemoir 工作台</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 2rem; line-height: 1.6; }
+    h1 { color: #333; }
+    .meta { color: #666; margin-bottom: 1rem; }
+    .actions a, .actions button { display: inline-block; margin: 0.25rem; padding: 0.4rem 0.8rem; background: #1a73e8; color: #fff; text-decoration: none; border-radius: 4px; border: none; cursor: pointer; font-size: 0.9rem; }
+    .actions a:hover, .actions button:hover { background: #1557b0; }
+    .messages { margin-top: 1.5rem; border-top: 1px solid #ddd; padding-top: 1rem; }
+    .msg { margin-bottom: 0.6rem; }
+    .sender { font-weight: 600; color: #1a73e8; }
+    .time { color: #999; font-size: 0.8rem; margin-left: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>{{ name }}</h1>
+  <div class="meta">
+    参与人：{{ participants | join(", ") }} | 消息数：{{ message_count }}
+  </div>
+  <div class="actions">
+    <a href="/work/{{ job_id }}/clean">一键清洗</a>
+    <a href="/work/{{ job_id }}/memoir">生成回忆录</a>
+    <a href="/work/{{ job_id }}/highlights">生成 Highlights</a>
+    <a href="/work/{{ job_id }}/skill?type=contact&target=codex">生成 Codex AGENTS.md</a>
+    <a href="/work/{{ job_id }}/skill?type=contact&target=generic">生成 Skill Markdown</a>
+    <a href="/work/{{ job_id }}/zip">打包下载 ZIP</a>
+  </div>
+  <div class="messages">
+    <h2>消息预览（前 100 条）</h2>
+    {% for m in messages %}
+    <div class="msg">
+      <span class="sender">[{{ m.sender }}]</span>
+      <span class="time">{{ m.timestamp.strftime("%Y-%m-%d %H:%M") }}</span>
+      <span>{{ m.content }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "id": "sample",
+  "name": "与 Alice 的聊天",
+  "type": "private",
+  "participants": ["Me", "Alice"],
+  "messages": [
+    {"timestamp": "2023-01-01T10:00:00", "sender": "Me", "content": "你好"},
+    {"timestamp": "2023-01-01T10:01:00", "sender": "Alice", "content": "你好呀"},
+    {"timestamp": "2023-01-01T10:02:00", "sender": "Me", "content": "你在吗"},
+    {"timestamp": "2023-01-01T10:03:00", "sender": "Me", "content": "明天有空吗"},
+    {"timestamp": "2023-01-01T10:04:00", "sender": "Alice", "content": "有啊"},
+    {"timestamp": "2023-01-01T10:05:00", "sender": "Me", "content": "那我们一起吃个饭吧"},
+    {"timestamp": "2023-01-01T10:06:00", "sender": "Alice", "content": "好呀"},
+    {"timestamp": "2023-01-01T10:07:00", "sender": "Me", "content": "哈哈哈"},
+    {"timestamp": "2023-01-01T10:08:00", "sender": "Alice", "content": "笑死"},
+    {"timestamp": "2023-01-01T10:09:00", "sender": "Me", "content": "嗯"},
+    {"timestamp": "2023-01-01T10:10:00", "sender": "Alice", "content": "那明天晚上七点见"},
+    {"timestamp": "2023-01-01T10:11:00", "sender": "Me", "content": "我答应你，一定准时到"},
+    {"timestamp": "2023-02-14T21:00:00", "sender": "Alice", "content": "今天是我们第一次约会的日子"},
+    {"timestamp": "2023-02-14T21:05:00", "sender": "Me", "content": "我会永远记得的"},
+    {"timestamp": "2023-02-14T21:10:00", "sender": "Alice", "content": "我也是"},
+    {"timestamp": "2023-03-01T23:30:00", "sender": "Me", "content": "还没睡吗"},
+    {"timestamp": "2023-03-01T23:35:00", "sender": "Alice", "content": "睡不着"},
+    {"timestamp": "2023-03-01T23:40:00", "sender": "Me", "content": "那我陪你聊会儿"},
+    {"timestamp": "2023-03-02T00:15:00", "sender": "Alice", "content": "谢谢你"},
+    {"timestamp": "2023-03-02T00:20:00", "sender": "Me", "content": "不用谢"}
+  ]
+}

@@ -1,0 +1,51 @@
+﻿Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Obtaining file:///D:/%E4%BD%9C%E4%B8%9A/science/tiny_tool_science/tinytool_for_weixin
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting flask>=2.0 (from wememoir==0.1.0)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7f/9c/34f6962f9b9e9c71f6e5ed806e0d0ff03c9d1b0b2340088a0cf4bce09b18/flask-3.1.3-py3-none-any.whl (103 kB)
+Requirement already satisfied: python-dateutil>=2.8 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from wememoir==0.1.0) (2.9.0.post0)
+Collecting beautifulsoup4>=4.10 (from wememoir==0.1.0)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/88/c6/92fcd42f1ba33e1184263f25bfabf3d27c383410470f169e4b8163bf9c17/beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
+Requirement already satisfied: pytest>=7.0 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from wememoir==0.1.0) (9.1.1)
+Requirement already satisfied: soupsieve>=1.6.1 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from beautifulsoup4>=4.10->wememoir==0.1.0) (2.8.4)
+Requirement already satisfied: typing-extensions>=4.0.0 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from beautifulsoup4>=4.10->wememoir==0.1.0) (4.15.0)
+Requirement already satisfied: blinker>=1.9.0 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from flask>=2.0->wememoir==0.1.0) (1.9.0)
+Collecting click>=8.1.3 (from flask>=2.0->wememoir==0.1.0)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c7/0d/67e5b4109ea4a837e80daa87c2c696711955e40449a97e8926672534def2/click-8.4.1-py3-none-any.whl (116 kB)
+Requirement already satisfied: itsdangerous>=2.2.0 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from flask>=2.0->wememoir==0.1.0) (2.2.0)
+Collecting jinja2>=3.1.2 (from flask>=2.0->wememoir==0.1.0)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl (134 kB)
+Requirement already satisfied: markupsafe>=2.1.1 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from flask>=2.0->wememoir==0.1.0) (3.0.3)
+Requirement already satisfied: werkzeug>=3.1.0 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from flask>=2.0->wememoir==0.1.0) (3.1.8)
+Requirement already satisfied: colorama>=0.4 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from pytest>=7.0->wememoir==0.1.0) (0.4.6)
+Requirement already satisfied: iniconfig>=1.0.1 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from pytest>=7.0->wememoir==0.1.0) (2.3.0)
+Requirement already satisfied: packaging>=22 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from pytest>=7.0->wememoir==0.1.0) (26.2)
+Requirement already satisfied: pluggy<2,>=1.5 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from pytest>=7.0->wememoir==0.1.0) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from pytest>=7.0->wememoir==0.1.0) (2.20.0)
+Requirement already satisfied: six>=1.5 in d:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\lib\site-packages (from python-dateutil>=2.8->wememoir==0.1.0) (1.17.0)
+Checking if build backend supports build_editable: started
+Checking if build backend supports build_editable: finished with status 'done'
+Building wheels for collected packages: wememoir
+  Building editable for wememoir (pyproject.toml): started
+  Building editable for wememoir (pyproject.toml): finished with status 'done'
+  Created wheel for wememoir: filename=wememoir-0.1.0-0.editable-py3-none-any.whl size=5852 sha256=8250f189f06f365d3f2dfb3a33ba7910a72037ec562c5c264ef914b6e170fe82
+  Stored in directory: C:\Users\37813\AppData\Local\Temp\pip-ephem-wheel-cache-5ebhl8p1\wheels\ee\84\f2\a01ff4fcf6e39c4a378fe73a12edc248dfa7c0fe47037ab999
+Successfully built wememoir
+Installing collected packages: jinja2, click, beautifulsoup4, flask, wememoir
+Successfully installed beautifulsoup4-4.15.0 click-8.4.1 flask-3.1.3 jinja2-3.1.6 wememoir-0.1.0
+.venv\Scripts\pip.exe : 
+At line:1 char:5
++ & { .venv\Scripts\pip.exe install -e ".[dev]" 2>&1 | Out-File -FilePa ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[notice] A new release of pip is available: 24.0 -> 26.1.2
+[notice] To update, run: D:\作业\science\tiny_tool_science\tinytool_for_weixin\.venv\Scripts\python.exe -m pip install --upgrade pip

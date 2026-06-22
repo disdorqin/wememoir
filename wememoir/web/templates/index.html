@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WeMemoir 本地聊天记录整理</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; max-width: 720px; margin: 0 auto; padding: 2rem; line-height: 1.6; }
+    h1 { color: #333; }
+    label { display: block; margin: 1rem 0 0.25rem; font-weight: 600; }
+    input, select { padding: 0.5rem; font-size: 1rem; }
+    button { margin-top: 1rem; padding: 0.6rem 1.2rem; font-size: 1rem; background: #1a73e8; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #1557b0; }
+    .notice { background: #f1f3f4; padding: 1rem; border-radius: 4px; margin-top: 1rem; font-size: 0.9rem; color: #555; }
+  </style>
+</head>
+<body>
+  <h1>WeMemoir</h1>
+  <p>本地优先的微信聊天记录整理工具。所有处理均在本地完成。</p>
+  <form action="/import" method="post" enctype="multipart/form-data">
+    <label for="file">上传聊天记录文件</label>
+    <input type="file" name="file" id="file" required>
+
+    <label for="source">导入格式</label>
+    <select name="source" id="source">
+      <option value="auto" selected>自动识别</option>
+      <option value="csv">CSV</option>
+      <option value="json">JSON</option>
+      <option value="txt">TXT</option>
+      <option value="html">HTML</option>
+    </select>
+
+    <label for="self_name">自己的昵称（可选，用于标记“我”）</label>
+    <input type="text" name="self_name" id="self_name" placeholder="例如：Me">
+
+    <button type="submit">导入并预览</button>
+  </form>
+  <div class="notice">
+    <strong>隐私提醒</strong>：上传的文件仅保存在本机临时目录，WeMemoir 不会发送到任何服务器。
+  </div>
+</body>
+</html>
