@@ -6,7 +6,7 @@ from .filler_rules import is_filler
 
 
 class DialogueCleaner:
-    """把原始消息清洗成“正常可读对话”。"""
+    """Turn raw messages into a normal readable dialogue."""
 
     _RECALL_KEYWORDS = ["撤回了一条消息", "消息已撤回", "你撤回了一条消息"]
     _PLACEHOLDERS = {"[图片]", "[语音]", "[视频]", "[动画表情]", "[表情包]", "[文件]", "[位置]", "[链接]"}

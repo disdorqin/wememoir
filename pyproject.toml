@@ -1,7 +1,7 @@
 [project]
 name = "wememoir"
 version = "0.1.0"
-description = "本地优先的微信聊天记录整理与回忆录生成工具"
+description = "Local-first WeChat chat organizer and memoir generator"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.9"

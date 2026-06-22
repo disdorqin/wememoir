@@ -11,8 +11,8 @@ class Message:
     id: str
     timestamp: datetime
     sender: str
-    sender_type: str = "other"  # self / other / unknown
-    message_type: str = "text"  # text / image / audio / video / system / transfer / redpacket / unknown
+    sender_type: str = "other"
+    message_type: str = "text"
     content: str = ""
     raw_content: str = ""
 
@@ -37,7 +37,7 @@ class Message:
 class Conversation:
     id: str
     name: str
-    type: str = "private"  # private / group
+    type: str = "private"
     participants: List[str] = field(default_factory=list)
     messages: List[Message] = field(default_factory=list)
 
