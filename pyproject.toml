@@ -1,7 +1,7 @@
 [project]
 name = "wememoir"
-version = "0.1.0"
-description = "Local-first WeChat chat organizer and memoir generator"
+version = "0.2.0"
+description = "Local-first WeChat chat exporter and mom-style comfort bot generator"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.9"
@@ -9,6 +9,7 @@ dependencies = [
     "flask>=2.0",
     "python-dateutil>=2.8",
     "beautifulsoup4>=4.10",
+    "python-dotenv>=1.0",
 ]
 
 [project.optional-dependencies]
@@ -24,3 +25,7 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["wememoir*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

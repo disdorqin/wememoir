@@ -5,6 +5,7 @@ from typing import Dict, Callable
 
 from .csv_importer import import_csv
 from .json_importer import import_json
+from .jsonl_importer import import_jsonl
 from .txt_importer import import_txt
 from .html_importer import import_html
 
@@ -12,6 +13,7 @@ from .html_importer import import_html
 IMPORTERS: Dict[str, Callable] = {
     "csv": import_csv,
     "json": import_json,
+    "jsonl": import_jsonl,
     "txt": import_txt,
     "html": import_html,
 }

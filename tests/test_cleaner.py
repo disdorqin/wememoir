@@ -11,6 +11,7 @@ def _msg(content: str, sender: str = "Me", delta_min: int = 0) -> Message:
         id="x",
         timestamp=datetime(2023, 1, 1, 10, 0, 0) + timedelta(minutes=delta_min),
         sender=sender,
+        message_type="text",
         content=content,
         raw_content=content,
     )
